@@ -1,11 +1,58 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <title>Мой первый проект</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Моё Портфолио</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <h1>Привет, мир!</h1>
-    <p>Это моя первая страница, созданная в рамках лабораторной работы.</p>
+  <header class="hero">
+    <div class="container">
+      <h1>Привет! Мы студенты группы ИС-23</h1>
+      <p>Начинающие Backend и Frontend разработчики</p>
+      <button id="themeToggle">Сменить тему</button>
+    </div>
+  </header>
+
+  <section class="about">
+    <div class="container">
+      <h2>Немного о нас</h2>
+      <p>
+        Мы изучаем С++ и С#, а также начали осваимвать HTML, CSS и JavaScript. Хотим 5 по практике.
+      </p>
+    </div>
+  </section>
+
+  <section class="projects">
+  <div class="container">
+    <h2>Наша команда</h2>
+    <div class="project-list">
+      <div class="project-card">
+        <img src="images/1.jpg" alt="Проект 1" class="project-image">
+        <h3>Никульшин Д.И.</h3>
+        <p>Денис учится программировать, любит писать логику на C# и решать задачи.</p>
+      </div>
+      <div class="project-card">
+        <img src="images/2.jpg" alt="Проект 2" class="project-image">
+        <h3>Решетов В.В.</h3>
+        <p>Вадим занимается версткой и дизайном сайтов, хорошо знает HTML и CSS.</p>
+      </div>
+      <div class="project-card">
+        <img src="images/3.jpg" alt="Проект 3" class="project-image">
+        <h3>Сулейманов А.Ш.</h3>
+        <p>Амир интересуется разными направлениями в IT, пробует себя в разных технологиях.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 ЗГУ</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
