@@ -1,4 +1,4 @@
-# 👋 Привет! Это мой первый проект!
+# 👋 Привет! Это наш первыйй!
 
 ![GitHub followers](https://img.shields.io/github/followers/AmirSuleimanov-IS?style=social)
 ![Build](https://img.shields.io/badge/build-passing-brightgreen)
@@ -19,9 +19,5 @@
 ## ⚙️ Технологии
 
 - **HTML**
-- CSS *(в будущем)*
-- JavaScript *(в будущем)*
-
----
-
-## 📁 Структура проекта
+- **CSS** 
+- **JavaScript**
