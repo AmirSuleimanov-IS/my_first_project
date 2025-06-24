@@ -1,4 +1,4 @@
-# 👋 Привет! Это наш первыйй!
+# 👋 Привет! Это наш первый!
 
 ![GitHub followers](https://img.shields.io/github/followers/AmirSuleimanov-IS?style=social)
 ![Build](https://img.shields.io/badge/build-passing-brightgreen)
