@@ -1,0 +1,118 @@
+/* Базовые настройки */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+/* Hero секция */
+.hero {
+  background: linear-gradient(to right, #4f46e5, #3b82f6);
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: white;
+  color: #3b82f6;
+  transition: background 0.3s;
+}
+
+.hero button:hover {
+  background-color: #e0e0e0;
+}
+
+/* Обо мне */
+.about {
+  padding: 60px 0;
+  background-color: #fff;
+}
+
+.about h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Проекты */
+.projects {
+  padding: 60px 0;
+  background-color: #f4f4f4;
+}
+
+.projects h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.project-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.project-image {
+  width: 100%;
+  height: 80%;
+  border-radius: 10px 10px 0 0; /* Закругляем верхние углы у картинки */
+  object-fit: cover;
+  display: block;
+}
+
+.project-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1 1 30%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden; /* Чтобы скрыть вылезающие углы картинки */
+  transition: transform 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Футер */
+.footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 30px 0;
+}
+
+/* Темная тема */
+body.dark-mode {
+  background-color: #1a1a1a;
+  color: #f4f4f4;
+}
+body.dark-mode .about {
+  background-color: #222;
+}
+body.dark-mode .projects {
+  background-color: #1a1a1a;
+}
+body.dark-mode .footer {
+  background-color: #333;
+}
